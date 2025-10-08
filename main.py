@@ -1,7 +1,7 @@
 from fastapi import FastAPI , status , HTTPException
 from typing import List
-from book_collection import books
-from schema import BookModel,BookCreateModel
+from src.books.book_collection import books
+from src.books.schema import BookModel,BookCreateModel
 
 
 app = FastAPI()
