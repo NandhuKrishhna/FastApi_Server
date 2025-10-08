@@ -1,0 +1,22 @@
+books = [
+    {"id": 1, "title": "The Silent Forest", "author": "Ava Carter", "genre": "Thriller", "year_published": 2018, "rating": 4.2, "pages": 326, "language": "English"},
+    {"id": 2, "title": "Shadows of Tomorrow", "author": "Liam Brooks", "genre": "Science Fiction", "year_published": 2021, "rating": 4.6, "pages": 412, "language": "English"},
+    {"id": 3, "title": "Echoes of the Past", "author": "Maya Patel", "genre": "Historical Fiction", "year_published": 2016, "rating": 4.1, "pages": 389, "language": "English"},
+    {"id": 4, "title": "Under Crimson Skies", "author": "Noah Reed", "genre": "Adventure", "year_published": 2020, "rating": 4.4, "pages": 278, "language": "English"},
+    {"id": 5, "title": "Fragments of Hope", "author": "Isabella Flores", "genre": "Romance", "year_published": 2019, "rating": 4.0, "pages": 340, "language": "English"},
+    {"id": 6, "title": "Digital Dreams", "author": "Ethan Kim", "genre": "Cyberpunk", "year_published": 2022, "rating": 4.7, "pages": 368, "language": "English"},
+    {"id": 7, "title": "The Forgotten Kingdom", "author": "Sophia Nguyen", "genre": "Fantasy", "year_published": 2015, "rating": 4.3, "pages": 512, "language": "English"},
+    {"id": 8, "title": "Paths Unwritten", "author": "Jacob Rivera", "genre": "Drama", "year_published": 2017, "rating": 3.9, "pages": 290, "language": "English"},
+    {"id": 9, "title": "Whispers Beneath", "author": "Olivia Stone", "genre": "Mystery", "year_published": 2020, "rating": 4.5, "pages": 354, "language": "English"},
+    {"id": 10, "title": "Into the Deep Blue", "author": "Lucas Morgan", "genre": "Adventure", "year_published": 2019, "rating": 4.1, "pages": 410, "language": "English"},
+    {"id": 11, "title": "Beyond the Horizon", "author": "Harper Gray", "genre": "Romance", "year_published": 2018, "rating": 4.2, "pages": 322, "language": "English"},
+    {"id": 12, "title": "City of Dust", "author": "Arjun Mehta", "genre": "Dystopian", "year_published": 2021, "rating": 4.6, "pages": 398, "language": "English"},
+    {"id": 13, "title": "The Final Spark", "author": "Grace Liu", "genre": "Science Fiction", "year_published": 2022, "rating": 4.8, "pages": 432, "language": "English"},
+    {"id": 14, "title": "Golden Horizon", "author": "Michael Torres", "genre": "Drama", "year_published": 2017, "rating": 4.0, "pages": 299, "language": "English"},
+    {"id": 15, "title": "Tides of Time", "author": "Ella Johnson", "genre": "Fantasy", "year_published": 2016, "rating": 4.3, "pages": 480, "language": "English"},
+    {"id": 16, "title": "Parallel Lives", "author": "Ryan Scott", "genre": "Philosophical Fiction", "year_published": 2015, "rating": 4.1, "pages": 350, "language": "English"},
+    {"id": 17, "title": "Winds of Change", "author": "Chloe Martinez", "genre": "Drama", "year_published": 2019, "rating": 4.2, "pages": 276, "language": "English"},
+    {"id": 18, "title": "Neon Nights", "author": "Aiden Chen", "genre": "Cyberpunk", "year_published": 2023, "rating": 4.9, "pages": 360, "language": "English"},
+    {"id": 19, "title": "The Long Shadow", "author": "Lara Bennett", "genre": "Thriller", "year_published": 2020, "rating": 4.5, "pages": 331, "language": "English"},
+    {"id": 20, "title": "Dreams of Tomorrow", "author": "Zane Carter", "genre": "Science Fiction", "year_published": 2021, "rating": 4.4, "pages": 407, "language": "English"}
+]
