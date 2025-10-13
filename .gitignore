@@ -1,3 +1,4 @@
 .env
 venv/
-__pychase__
+__pycache__/
+src/__pycache__/

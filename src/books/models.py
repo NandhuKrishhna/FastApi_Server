@@ -1,5 +1,5 @@
 from sqlmodel import SQLModel, Field , Column
-from datetime import datetime
+from datetime import datetime , date
 import sqlalchemy.dialects.postgresql as pg
 import uuid 
 class Book(SQLModel, table=True):
@@ -14,13 +14,10 @@ class Book(SQLModel, table=True):
     )
     title: str
     author: str
-    genre: str
-    year_published: int
-    rating: float
-    pages: int
+    year_published: date
     language: str
-    created_at: datetime = Field(Column(pg.TIMESTAMP , default=datetime.now))
-    updated_at: datetime = Field(Column(pg.TIMESTAMP , default=datetime.now))
+    created_at: datetime = Field(sa_column=Column(pg.TIMESTAMP , default=datetime.now))
+    updated_at: datetime = Field(sa_column=Column(pg.TIMESTAMP , default=datetime.now))
 
 
     def __repr__(self):

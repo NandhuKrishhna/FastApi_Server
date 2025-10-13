@@ -1,10 +1,10 @@
 from fastapi import APIRouter,status,HTTPException
 from typing import List
-from src.books.schema import BookCreateModel, BookModel
+from src.books.schema import Book, BookUpdateModel, BookCreateModel
 from src.books.book_collection import books
 book_router = APIRouter()
 
-@book_router.get('/', response_model = List[BookModel])
+@book_router.get('/', response_model = List[Book])
 async def get_all_books():
     return books
 
@@ -16,7 +16,7 @@ async def create_book(book_data: BookCreateModel):
     books.append(new_book)
     return new_book
 
-@book_router.get('/{book_id}', response_model=BookModel)
+@book_router.get('/{book_id}', response_model=Book)
 async def get_book(book_id:int):
     for book in books:
 
